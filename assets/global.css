@@ -3,12 +3,11 @@ html {
 }
 
 :root {
-   color-scheme: auto
+   color-scheme: dark
 }
 
-
 body {
-   @apply w-full h-full flex flex-col bg-midnight-150;
+   @apply w-full h-full flex flex-col bg-midnight-150 overflow-x-hidden;
    margin: 0
 }
 
@@ -18,7 +17,7 @@ body::before {
    right: 0px;
    width: 35%;
    height: 100%;
-   background: linear-gradient(90deg, rgb(39 33 48 / 100%), rgb(39 33 48 / 75%)), url('/bg.jpg');
+   background: linear-gradient(0deg, rgb(39 33 48 / 100%), rgb(39 33 48 / 25%)), linear-gradient(90deg, rgb(39 33 48 / 100%), rgb(39 33 48 / 75%)), url(/bg.jpg);
    background-position: 80% 100%;
    background-size: cover;
    background-repeat: no-repeat;
