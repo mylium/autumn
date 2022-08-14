@@ -19,7 +19,7 @@
           Privacy Policy
         </h1>
         <p class="italic text-midnight-800 md:text-base sm:text-sm text-xs">
-          Last updated: August 14th, 2022
+          (not in force, last updated August 14th, 2022)
         </p>
         <p class="mt-4 md:text-base sm:text-sm text-xs">
           Sapphire is committed to your security and right to privacy. In this document, we leave our terms regarding the use that we give to the data that you grant us when entering the Sapphire web application.
