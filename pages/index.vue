@@ -2,7 +2,7 @@
   <div id="__axhl-content" class="w-full h-full">
     <article>
       <Logo />
-      <p class="mt-4 md:w-1/2">
+      <p class="mt-4 md:w-full lg:w-1/2">
         Sapphire is an upcoming closed space for <b>kpoopies</b>, made by <b>kpoopies</b>. If you want to participate into beta testing,
         we encourage you to read Sapphire' <nuxt-link to="/privacy" v-text="'privacy policy'" /> and fill the application form below.
       </p>

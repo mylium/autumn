@@ -1,7 +1,7 @@
 <template>
   <div id="__axhl-content" class="w-full h-full p-12">
     <article>
-      <nuxt-link to="/">
+      <nuxt-link class="md:text-base sm:text-sm text-xs" to="/">
         Back to Home.
       </nuxt-link>
       <section class="mt-4">
@@ -31,7 +31,7 @@
         <p class="mt-4 md:text-base sm:text-sm text-xs">
           We collect certain data when you create an user account in our website. This includes information you willingly or automatically give to us.
           <br><br>The information that you <b>voluntarily</b> give to us are:
-          <ul class="list-disc pl-8">
+          <ul class="list-disc pt-4 pl-8">
             <li>
               <b>Account information.</b>
               When you create an account on Sapphire, you give to your own account an username and a password, with a verified email address. You can also set an avatar
