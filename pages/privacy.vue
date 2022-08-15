@@ -17,7 +17,7 @@
           When you visit our website <a href="https://sapphire.dev">sapphire.dev</a> ("the Website"), or consequently, use any of our services ("the Services", which include the Website and App), we appreciate the trust you place in us by providing us with your personal data.
           <br><br>
           Please read this policy carefully as it will help you understand what we do with the information that we collect and the data that you give to us.<br><br>Before that, here's a summary of the terms:
-          <ul class="list-disc pl-8">
+          <ul class="list-disc pt-4 pl-8">
             <li><b>We do not sell your data.</b> Your data is only yours. We do not have the right to use the data that you do not agree to grant, and much worse to sell it to third parties. They belong to you.</li>
             <li><b>We store data you give.</b> The only data we get is what you want to give. Sapphire offers settings for letting us know that you don't want to give any kind of data.</li>
             <li><b>We are not business.</b> Sapphire's only a hobby. There are no intentions to become a big company.</li>
@@ -53,7 +53,10 @@
 export default {
   name: 'PrivacyPage',
   head: {
-    title: 'Privacy Policy'
+    title: 'Privacy Policy',
+    meta: [
+      { name: 'og:title', content: 'Sapphire - Building new experiences' }
+    ]
   }
 }
 </script>

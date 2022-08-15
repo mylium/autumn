@@ -8,7 +8,7 @@
       </p>
     </article>
     <form class="mt-8 w-auto">
-      <div class="__select-container flex flex-wrap flex-col md:w-1/4 w-full">
+      <div class="__select-container flex flex-wrap flex-col lg:w-1/4 md:w-1/2 w-full">
         <div class="mb-4">
           <input
             id="fname"
@@ -41,7 +41,10 @@
 export default {
   name: 'IndexPage',
   head: {
-    title: 'Building new experiences'
+    title: 'Building new experiences',
+    meta: [
+      { name: 'og:title', content: 'Sapphire - Building new experiences' }
+    ]
   }
 }
 </script>
