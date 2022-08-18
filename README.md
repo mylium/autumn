@@ -1,4 +1,5 @@
-# sapphire
+# Autumn
+Sapphire's public website.
 
 ## Build Setup
 
