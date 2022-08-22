@@ -55,7 +55,7 @@ export default {
   head: {
     title: 'Privacy Policy',
     meta: [
-      { name: 'og:title', content: 'Sapphire - Building new experiences' }
+      { name: 'og:title', content: 'Sapphire - Privacy Policy' }
     ]
   }
 }

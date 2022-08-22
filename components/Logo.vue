@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-row items-center md:justify-start justify-center items-center">
     <svg
-      class="md:w-36 md:h-36 w-24 h-24 lg:w-48 lg:h-48 mb-4 mr-4"
+      :class="'mb-4 mr-4 ' + (sizing === 'true' ? 'md:w-36 md:h-36 w-24 h-24 lg:w-48 lg:h-48' : '')"
       xmlns="http://www.w3.org/2000/svg"
-      width="931"
-      height="931"
+      :width="w"
+      :height="h"
       viewBox="0 0 931 931"
       fill="none"
     >
@@ -36,6 +36,20 @@
 
 <script>
 export default {
-  name: 'LogoComponent'
+  name: 'LogoComponent',
+  props: {
+    w: {
+      type: String,
+      default: '931'
+    },
+    h: {
+      type: String,
+      default: '931'
+    },
+    sizing: {
+      type: String,
+      default: 'true'
+    }
+  }
 }
 </script>

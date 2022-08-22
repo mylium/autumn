@@ -17,7 +17,7 @@ body::before {
    right: 0px;
    width: 50%;
    height: 100%;
-   background: linear-gradient(0deg,#272130,rgb(39 33 48 / 25%)),linear-gradient(0deg,#272130,rgba(39,33,48,.5)),linear-gradient(90deg,#272130,rgba(39,33,48,.5)),url(/bg.jpg);
+   background: linear-gradient(0deg,#272130,rgba(39,33,48,.5)),linear-gradient(90deg,#272130,rgba(39,33,48,.5)),url(/bg.jpg);
    background-position: 80% 100%;
    background-size: cover;
    background-repeat: no-repeat;

@@ -1,6 +1,5 @@
 <template>
-  <Welcome v-if="!getUser" />
-  <div v-else id="__axhl-content" class="w-full h-full">
+  <div id="__axhl-content" class="w-full h-full">
     <article>
       <Logo />
       <p class="mt-4 md:w-full lg:w-1/2">
@@ -40,17 +39,6 @@
 
 <script>
 export default {
-  name: 'IndexPage',
-  head: {
-    title: 'Building new experiences',
-    meta: [
-      { name: 'og:title', content: 'Sapphire - Building new experiences' }
-    ]
-  },
-  computed: {
-    getUser () {
-      return this.$store.state.account
-    }
-  }
+  name: 'WelcomeScreen'
 }
 </script>

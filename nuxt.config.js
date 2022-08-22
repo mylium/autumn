@@ -13,7 +13,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Your place for nerdy shit and shitposting.' },
       { name: 'og:site_name', content: 'sapphire.dev' },
-      { name: 'og:title', content: 'Sapphire' },
+      { name: 'og:title', content: 'Sapphire - Building new experiences.' },
       { name: 'theme-color', content: '#a994be' },
       { property: 'og:description', content: 'Your place for nerdy shit and shitposting.' },
       { name: 'format-detection', content: 'telephone=no' }
