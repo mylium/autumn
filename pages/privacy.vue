@@ -9,10 +9,10 @@
           Privacy Policy
         </h1>
         <p class="italic text-midnight-800 md:text-base sm:text-sm text-xs">
-          (not in force, last updated August 14th, 2022)
+          (not in force, last updated September 24th, 2022)
         </p>
         <p class="mt-4 md:text-base sm:text-sm text-xs">
-          Mylium is committed to your security and right to privacy. In this document, we leave our terms regarding the use that we give to the data that you grant us when entering the Mylium web application.
+          Mylium ("we", "us") is committed to your security and right to privacy. In this document, we leave our terms regarding the use that we give to the data that you grant us when entering the Mylium web application.
           Thank you for selecting our space. If you have any questions or concerns about this document, contact us at <a href="mailto:contact@mylium.app">contact@mylium.app</a>.
           When you visit our website <a href="https://mylium.app">mylium.app</a> ("the Website"), or consequently, use any of our services ("the Services", which include the Website and App), we appreciate the trust you place in us by providing us with your personal data.
           <br><br>
