@@ -12,15 +12,15 @@
           (not in force, last updated August 14th, 2022)
         </p>
         <p class="mt-4 md:text-base sm:text-sm text-xs">
-          Sapphire is committed to your security and right to privacy. In this document, we leave our terms regarding the use that we give to the data that you grant us when entering the Sapphire web application.
-          Thank you for selecting our space. If you have any questions or concerns about this document, contact us at <a href="mailto:contact@sapphire.dev">contact@sapphire.dev</a>.
-          When you visit our website <a href="https://sapphire.dev">sapphire.dev</a> ("the Website"), or consequently, use any of our services ("the Services", which include the Website and App), we appreciate the trust you place in us by providing us with your personal data.
+          Mylium is committed to your security and right to privacy. In this document, we leave our terms regarding the use that we give to the data that you grant us when entering the Mylium web application.
+          Thank you for selecting our space. If you have any questions or concerns about this document, contact us at <a href="mailto:contact@mylium.app">contact@mylium.app</a>.
+          When you visit our website <a href="https://mylium.app">mylium.app</a> ("the Website"), or consequently, use any of our services ("the Services", which include the Website and App), we appreciate the trust you place in us by providing us with your personal data.
           <br><br>
           Please read this policy carefully as it will help you understand what we do with the information that we collect and the data that you give to us.<br><br>Before that, here's a summary of the terms:
           <ul class="list-disc pt-4 pl-8">
             <li><b>We do not sell your data.</b> Your data is only yours. We do not have the right to use the data that you do not agree to grant, and much worse to sell it to third parties. They belong to you.</li>
-            <li><b>We store data you give.</b> The only data we get is what you want to give. Sapphire offers settings for letting us know that you don't want to give any kind of data.</li>
-            <li><b>We are not business.</b> Sapphire's only a hobby. There are no intentions to become a big company.</li>
+            <li><b>We store data you give.</b> The only data we get is what you want to give. Mylium offers settings for letting us know that you don't want to give any kind of data.</li>
+            <li><b>We are not business.</b> Mylium's only a hobby. There are no intentions to become a big company.</li>
           </ul>
         </p>
       </section>
@@ -34,8 +34,8 @@
           <ul class="list-disc pt-4 pl-8">
             <li>
               <b>Account information.</b>
-              When you create an account on Sapphire, you give to your own account an username and a password, with a verified email address. You can also set an avatar
-              or banner to your account. Information like your username, avatar and banner is public, but your email and password is encrypted and stored. If you have account problems, an Sapphire employee will not ask
+              When you create an account on Mylium, you give to your own account an username and a password, with a verified email address. You can also set an avatar
+              or banner to your account. Information like your username, avatar and banner is public, but your email and password is encrypted and stored. If you have account problems, an Mylium employee will not ask
               you for your account's password, and if someone does, we ask you to report them in our email.
             </li>
             <li>
@@ -55,7 +55,7 @@ export default {
   head: {
     title: 'Privacy Policy',
     meta: [
-      { name: 'og:title', content: 'Sapphire - Privacy Policy' }
+      { name: 'og:title', content: 'Mylium - Privacy Policy' }
     ]
   }
 }

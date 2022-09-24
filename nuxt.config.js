@@ -6,14 +6,14 @@ const _ = {
 
 export default {
   head: {
-    titleTemplate: 'Sapphire - %s',
+    titleTemplate: 'Mylium - %s',
     title: 'App',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Your place for nerdy shit and shitposting.' },
-      { name: 'og:site_name', content: 'sapphire.dev' },
-      { name: 'og:title', content: 'Sapphire - Building new experiences.' },
+      { name: 'og:site_name', content: 'mylium.app' },
+      { name: 'og:title', content: 'Mylium - Building new experiences.' },
       { name: 'theme-color', content: '#a994be' },
       { property: 'og:description', content: 'Your place for nerdy shit and shitposting.' },
       { name: 'format-detection', content: 'telephone=no' }
