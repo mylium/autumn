@@ -1,14 +1,14 @@
-html {
-   @apply w-screen h-screen text-white;
-}
-
 :root {
    color-scheme: dark
 }
 
 body {
-   @apply w-full h-full flex flex-col bg-midnight-150 overflow-x-hidden;
+   @apply w-screen h-screen bg-midnight-150 overflow-x-hidden;
    margin: 0
+}
+
+body, #__layout, #__axhl-root {
+   @apply w-screen h-screen
 }
 
 body::before {
@@ -25,12 +25,17 @@ body::before {
 }
 
 a {
-   @apply text-midnight-500 underline
+   @apply text-midnight-500
 }
 
 a:hover {
-   @apply text-midnight-700
+   @apply text-midnight-900 underline !important
 }
+
+a.nuxt-link-exact-active {
+   @apply text-midnight-600
+}
+
 
 .top-full {
    top: 100%
@@ -38,4 +43,27 @@ a:hover {
 
 li {
    @apply my-2
+}
+
+.__axhl-loading-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   height: 150px;
+   border-radius: 100%;
+   border: 1px solid #383240;
+   animation: 5s ease-in-out normal infinite pulse
+ }
+
+@keyframes pulse {
+   0% {
+      color: #CBA1FF
+   }
+   50% {
+      color: #967bb6
+   }
+   100% {
+      color: #CBA1FF
+   }
 }
