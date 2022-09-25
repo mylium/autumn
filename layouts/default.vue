@@ -23,6 +23,9 @@ export default {
     getUser () {
       return this.$store.state.account
     }
+  },
+  mounted () {
+    setTimeout(() => { this.loading = false }, 2500)
   }
 }
 </script>
