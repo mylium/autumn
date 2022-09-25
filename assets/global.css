@@ -2,12 +2,16 @@
    color-scheme: dark
 }
 
+html {
+   @apply w-full h-screen
+}
+
 body {
    @apply w-screen h-screen bg-midnight-150 overflow-x-hidden;
    margin: 0
 }
 
-body, #__layout, #__axhl-root {
+body, #__layout, #__lunar, #__axhl-root {
    @apply w-screen h-screen
 }
 
@@ -46,24 +50,21 @@ li {
 }
 
 .__axhl-loading-container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 150px;
-   height: 150px;
-   border-radius: 100%;
+   @apply flex justify-center items-center rounded-full bg-midnight-150;
+   width: 200px;
+   height: 200px;
    border: 1px solid #383240;
    animation: 5s ease-in-out normal infinite pulse
  }
 
 @keyframes pulse {
    0% {
-      color: #CBA1FF
+      border-color: #382e44;
    }
    50% {
-      color: #967bb6
+      @apply border-midnight-700;
    }
    100% {
-      color: #CBA1FF
+      border-color: #382e44;
    }
 }

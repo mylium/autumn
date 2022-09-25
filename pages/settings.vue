@@ -1,7 +1,7 @@
 <template>
   <div id="__axhl-content" class="w-full h-full p-12">
     <article>
-      <h1 class="text-3xl font-bold text-midnight-800">
+      <h1 class="md:text-4xl text-2xl font-bold">
         Settings
       </h1>
       <p class="mt-4 italic text-midnight-1000">

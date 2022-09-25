@@ -1,6 +1,6 @@
 <template>
-  <div id="__axhl-content" class="w-full h-full p-12">
-    <article>
+  <div id="__axhl-content" class="w-full h-full md:p-12 px-12 py-12">
+    <article class="h-full">
       <nuxt-link class="md:text-base sm:text-sm text-xs" to="/">
         Back to Home.
       </nuxt-link>
@@ -24,7 +24,7 @@
           </ul>
         </p>
       </section>
-      <section class="mt-8">
+      <section class="mt-8 pb-36">
         <h1 class="md:text-2xl text-lg font-bold">
           1. Data collect
         </h1>
