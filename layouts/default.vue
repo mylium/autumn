@@ -1,6 +1,6 @@
 <template>
   <div id="__axhl-root">
-    <div id="__axhl-init" class="w-full h-full flex flex-col p-12">
+    <div id="__axhl-init" class="w-full h-full flex flex-col">
       <Topbar v-if="getUser" />
       <Nuxt />
     </div>

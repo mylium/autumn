@@ -1,9 +1,9 @@
 <template>
   <div id="axhl__footer" class="relative bottom-0 left-0 border-t border-midnight-200 bg-midnight-100 flex md:flex-row flex-col md:justify-between justify-center items-center py-6 px-12 w-full">
     <h1 class="text-midnight-500">
-      made by <a href="https://github.com/aexhell">aexhell</a>.
+      made by <a href="https://aexhell.com">aexhell</a>.
     </h1>
-    <a href="https://github.com/aexhell">
+    <a href="https://aexhell.com">
       <svg
         class="hidden md:block text-midnight-500 hover:text-midnight-700"
         xmlns="http://www.w3.org/2000/svg"

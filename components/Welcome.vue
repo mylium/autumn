@@ -1,5 +1,5 @@
 <template>
-  <div id="__axhl-content" class="w-full h-full">
+  <div id="__axhl-content" class="w-full h-full p-12">
     <article>
       <Logo />
       <p class="mt-4 md:w-full lg:w-1/2">
@@ -11,7 +11,7 @@
       <div class="__select-container flex flex-wrap flex-col lg:w-1/4 md:w-1/2 w-full">
         <div class="mb-4">
           <input
-            id="fname"
+            id="username"
             type="text"
             class="outline-none bg-midnight-100 border border-midnight-300 text-white text-sm rounded-3xl focus:ring-midnight-600 focus:border-midnight-600 block w-full py-2.5 px-4"
             placeholder="Name"

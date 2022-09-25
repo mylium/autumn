@@ -35,3 +35,7 @@ a:hover {
 .top-full {
    top: 100%
 }
+
+li {
+   @apply my-2
+}
