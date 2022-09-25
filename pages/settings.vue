@@ -1,5 +1,5 @@
 <template>
-  <div id="__axhl-content" class="w-full h-full p-12">
+  <div id="__axhl-content" class="w-full h-full">
     <article>
       <h1 class="md:text-4xl text-2xl font-bold">
         Settings

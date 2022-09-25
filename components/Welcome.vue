@@ -1,13 +1,13 @@
 <template>
-  <div id="__axhl-content" class="w-full h-full p-12">
+  <div id="__axhl-content" class="w-full h-full">
     <article>
       <Logo w="250" h="250" />
-      <p class="mt-8 md:w-full lg:w-1/2">
+      <p class="mt-2 md:mt-8 md:w-full lg:w-1/2 md:text-base text-sm">
         Mylium is an upcoming closed space for <b>kpoopies</b>, made by <b>kpoopies</b>. If you want to participate into beta testing,
         we encourage you to read Mylium' <nuxt-link to="/privacy" v-text="'privacy policy'" /> and fill the application form below.
       </p>
     </article>
-    <form class="mt-8 w-auto">
+    <form class="mt-6 md:mt-8 w-auto">
       <div class="__select-container flex flex-wrap flex-col lg:w-1/4 md:w-1/2 w-full">
         <div class="mb-4">
           <input

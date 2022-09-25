@@ -1,15 +1,12 @@
 <template>
-  <div id="__axhl-content" class="w-full h-full md:p-12 px-12 py-12">
+  <div id="__axhl-content" class="w-full h-full">
     <article class="h-full">
-      <nuxt-link class="md:text-base sm:text-sm text-xs" to="/">
-        Back to Home.
-      </nuxt-link>
-      <section class="mt-4">
+      <section>
         <h1 class="md:text-4xl text-2xl font-bold">
           Privacy Policy
         </h1>
         <p class="italic text-midnight-800 md:text-base sm:text-sm text-xs">
-          (not in force, last updated September 24th, 2022)
+          (not in force, last updated September 25th, 2022)
         </p>
         <p class="mt-4 md:text-base sm:text-sm text-xs">
           Mylium ("we", "us") is committed to your security and right to privacy. In this document, we leave our terms regarding the use that we give to the data that you grant us when entering the Mylium web application.
@@ -18,15 +15,24 @@
           <br><br>
           Please read this policy carefully as it will help you understand what we do with the information that we collect and the data that you give to us.<br><br>Before that, here's a summary of the terms:
           <ul class="list-disc pt-4 pl-8">
-            <li><b>We do not sell your data.</b> Your data is only yours. We do not have the right to use the data that you do not agree to grant, and much worse to sell it to third parties. They belong to you.</li>
+            <li><b>We do not sell your personal data.</b> Your personal data is only yours. We do not have the right to use and sell the data that you do not agree to grant to third parties. They belong to you.</li>
             <li><b>We store data you give.</b> The only data we get is what you want to give. Mylium offers settings for letting us know that you don't want to give any kind of data.</li>
             <li><b>We are not business.</b> Mylium's only a hobby. There are no intentions to become a big company.</li>
           </ul>
         </p>
       </section>
-      <section class="mt-8 pb-36">
+      <section class="my-8">
         <h1 class="md:text-2xl text-lg font-bold">
-          1. Data collect
+          1. Consent
+        </h1>
+        <p class="mt-4 md:text-base sm:text-sm text-xs">
+          By using the Mylium web application or its mobile version, you are consenting to the processing of your information as set in this policy.
+          Processing information means storing it in our servers, cookies or local storage in your web browser, etc.
+        </p>
+      </section>
+      <section class="mt-8 md:pb-24 pb-36">
+        <h1 class="md:text-2xl text-lg font-bold">
+          2. Data collect
         </h1>
         <p class="mt-4 md:text-base sm:text-sm text-xs">
           We collect certain data when you create an user account in our website. This includes information you willingly or automatically give to us.
@@ -43,6 +49,18 @@
               After you create an account on the website, you are able to create posts which may include multimedia. The content of your post is stored, linking its creating to your account.
             </li>
           </ul>
+          <br>The information that we <b>automatically</b> recieve from you are:
+          <ul class="list-disc pt-4 pl-8">
+            <li>
+              <b>Device information.</b>
+              When you use Mylium, we recieve information from your device, for example: IP address, device type (personal computer, phone), etc.
+            </li>
+            <li>
+              <b>Cookies and local storage access.</b>
+              When you use Mylium, we recieve access from your web browser for storing cookies in it. We use this for storing, for example, session data.
+            </li>
+          </ul>
+          <br>If you do not agree in giving these kind of information, you can stop it by closing the website.
         </p>
       </section>
     </article>

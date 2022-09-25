@@ -2,7 +2,7 @@
   <div id="__axhl-root">
     <div v-if="!loading" id="__axhl-init" class="w-full h-full flex flex-col-reverse md:flex-row">
       <Sidebar v-if="!getUser" />
-      <Nuxt />
+      <Nuxt class="md:pl-40 md:pr-24 md:py-12 py-6 px-12" />
     </div>
     <div v-else id="__axhl-loading" class="w-full h-full flex justify-center items-center flex-row">
       <div class="__axhl-loading-container" />

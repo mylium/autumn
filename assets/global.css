@@ -40,11 +40,6 @@ a.nuxt-link-exact-active {
    @apply text-midnight-600
 }
 
-
-.top-full {
-   top: 100%
-}
-
 li {
    @apply my-2
 }
