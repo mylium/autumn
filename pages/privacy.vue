@@ -53,7 +53,7 @@
 export default {
   name: 'PrivacyPage',
   head: {
-    title: 'Privacy Policy',
+    title: '- Privacy Policy',
     meta: [
       { name: 'og:title', content: 'Mylium - Privacy Policy' }
     ]

@@ -6,7 +6,7 @@
 export default {
   name: 'IndexPage',
   head: {
-    title: 'Building new experiences',
+    title: '- Building new experiences',
     meta: [
       { name: 'og:title', content: 'Mylium - Building new experiences' }
     ]

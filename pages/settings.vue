@@ -13,6 +13,12 @@
 
 <script lang="ts">
 export default {
-  name: 'SettingsPage'
+  name: 'SettingsPage',
+  head: {
+    title: '- Settings',
+    meta: [
+      { name: 'og:title', content: 'Mylium - Settings' }
+    ]
+  }
 }
 </script>

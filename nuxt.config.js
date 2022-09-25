@@ -6,8 +6,8 @@ const _ = {
 
 export default {
   head: {
-    titleTemplate: 'Mylium - %s',
-    title: 'App',
+    titleTemplate: 'Mylium %s',
+    title: '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
