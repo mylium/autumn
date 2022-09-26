@@ -1,5 +1,5 @@
 # Autumn
-Sapphire's public website.
+Mylium's landing website (public view).
 
 ## Build Setup
 
