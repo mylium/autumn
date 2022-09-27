@@ -1,7 +1,7 @@
 {
-  "name": "sapphire",
+  "name": "autumn",
   "version": "1.0.0",
-  "private": true,
+  "author": "mylium",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

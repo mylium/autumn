@@ -5,6 +5,14 @@ const _ = {
 }
 
 export default {
+  loading: false,
+  generate: {
+    fallback: true,
+    exclude: [
+      /^\/sudo/
+    ],
+    interval: 2000
+  },
   head: {
     titleTemplate: 'Mylium %s',
     title: '',

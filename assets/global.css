@@ -52,6 +52,10 @@ li {
    animation: 5s ease-in-out normal infinite pulse
  }
 
+.__axhl-loader {
+   animation: 5s linear normal infinite spin
+}
+
 @keyframes pulse {
    0% {
       border-color: #382e44;
@@ -61,5 +65,15 @@ li {
    }
    100% {
       border-color: #382e44;
+   }
+}
+
+
+@keyframes spin {
+   0% {
+      transform: rotateX('0');
+   }
+   100% {
+      transform: rotateX('360');
    }
 }
