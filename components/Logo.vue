@@ -1,7 +1,7 @@
 <template>
   <div v-if="sizing === 'true'" class="flex flex-row items-center md:justify-start justify-center items-center">
     <svg
-      :class="(sizing === 'true' ? 'md:w-24 md:h-24 w-24 h-24 lg:w-36 lg:h-36' : '')"
+      :class="(sizing === 'true' ? 'w-36 h-36' : '')"
       xmlns="http://www.w3.org/2000/svg"
       :width="w"
       :height="h"
@@ -13,7 +13,7 @@
     </svg>
     <svg
       v-if="text === 'true'"
-      class="md:w-64 w-56 mt-4 ml-6"
+      class="md:w-64 sm:w-48 mt-4 ml-6"
       xmlns="http://www.w3.org/2000/svg"
       width="443"
       height="126"

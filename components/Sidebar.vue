@@ -3,9 +3,14 @@
     <nuxt-link to="/">
       <Logo w="50" h="50" text="false" sizing="false" />
     </nuxt-link>
-    <nuxt-link to="/settings" class="md:mt-16">
-      <outline-cog-icon class="w-8 h-8" />
-    </nuxt-link>
+    <div class="md:flex-col flex-row flex md:mt-16">
+      <nuxt-link class="md:mr-auto mr-4" to="/privacy">
+        <outline-scale-icon class="w-8 h-8 md:mb-4" />
+      </nuxt-link>
+      <nuxt-link to="/settings">
+        <outline-cog-icon class="w-8 h-8" />
+      </nuxt-link>
+    </div>
   </div>
 </template>
 
