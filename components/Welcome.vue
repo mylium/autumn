@@ -28,7 +28,7 @@
           >
         </div>
         <div>
-          <button class="mr-3 w-fit h-min z-10 flex items-center p-2 mt-4 text-sm border border-transparent rounded-3xl text-white bg-midnight-600 hover:bg-midnight-800 transition-colors duration-200 transform shadow shadow-md shadow-midnight-600">
+          <button class="mr-3 w-fit h-min flex items-center p-2 mt-4 text-sm border border-transparent rounded-3xl text-white bg-midnight-600 hover:bg-midnight-800 transition-colors duration-200 transform shadow shadow-md shadow-midnight-600">
             <span class="mx-2">Register</span>
           </button>
         </div>
