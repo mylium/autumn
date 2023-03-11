@@ -1,3 +1,5 @@
+**DEPRECATED**: Due to Mylium's new UX design, this repository is being deprecated.
+
 # Autumn
 Mylium's landing website (public view).
 
